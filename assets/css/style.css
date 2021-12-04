@@ -1,0 +1,84 @@
+/* Universal selector style */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+/* Body Style */
+body {
+    font-family: 'Sirin Stencil', sans-serif;
+}
+
+/* Header and Navigation Styles START */
+
+header {
+    width: 100%;
+    min-height: 20%;
+}
+
+#image { 
+    background: url(../img/Dragon.jpeg) no-repeat center scroll;
+    background-size: cover;
+    opacity: 90%;
+}
+
+header h1 {
+    text-align: center;
+    padding-left: 400px;
+    font-size: 55px;
+    -webkit-text-stroke: 0.5px darkblue; /* width and color */
+    font-family: 'Black Ops One'; color: yellow;
+    text-decoration: underline overline fuchsia;
+}
+
+header h1 .font-logo {
+    font-size: 120px;
+    color: rgb(63, 218, 32);
+}
+nav {
+    padding: 30px;
+}
+ul {
+    text-align: center;
+    color: fuchsia;
+}
+
+/* List items in nav bar */
+li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 25px;
+    padding-block: 20px;
+    background: rgba(76, 175, 80, 0.6);
+}
+
+
+/* Header and Navigation Styles END */
+
+
+/* Boxes */
+img {
+    display: block;
+    margin: auto;
+}
+
+#our-mission {
+
+}
+#project-timeline {
+
+}
+
+#community {
+
+}
+
+#how-to {
+
+}
+
+#who-we-are {
+
+}
