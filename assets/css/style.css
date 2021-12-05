@@ -35,7 +35,7 @@ header h1 {
     font-size: 45px;
     -webkit-text-stroke: 0.5px navy; /* width and color */
     font-family: 'Black Ops One'; color: yellow;
-    text-decoration: underline overline fuchsia;
+    text-decoration: underline  fuchsia;
 }
 
 header h1 .font-logo {
